@@ -67,6 +67,19 @@ class App extends Component {
             </ul>
           </div>
         </div>
+        <div className="row mt-3">
+          <div className="col-12">
+          <h3>Total coffees: {this.state.coffees.reduce((total, current) => total + current.counter, 0)}</h3>
+          <ul>
+            {this.state.coffees.filter(x => x.counter > 0).map(item => (
+              <li key={item.name}>
+                <span>{item.name}: {item.counter}</span>
+              </li>
+            ))
+            }
+          </ul>
+          </div>
+        </div>
       </div>
       </div>
     );
