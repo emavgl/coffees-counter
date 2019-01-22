@@ -50,12 +50,12 @@ class App extends Component {
               {this.state.coffees.map((item) => (
                 <div key={item.name}>
                   <div className="row">
-                    <div className="col-3">
+                    <div className=" text-center col-2">
                       <button type="button" className="list-group-item list-group-item-action" onClick={() => this.decrease(item.name)}>
                           <span>-</span>
                       </button>
                     </div>
-                    <div className="col-9">
+                    <div className="col-10">
                       <button type="button" className="list-group-item list-group-item-action" onClick={() => this.increase(item.name)}>
                         {item.name}
                         <span className="badge badge-primary badge-pill ml-2">{item.counter}</span>
@@ -68,7 +68,7 @@ class App extends Component {
           </div>
         </div>
         <div className="row mt-3">
-          <div className="col-12">
+          <div className="col-12 alert alert-primary">
           <h3>Total coffees: {this.state.coffees.reduce((total, current) => total + current.counter, 0)}</h3>
           <ul>
             {this.state.coffees.filter(x => x.counter > 0).map(item => (
