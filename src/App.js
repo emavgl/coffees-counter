@@ -7,11 +7,18 @@ class App extends Component {
     super(props);
     let coffees = [
       {'name': 'Liscio', 'counter': 0},
+      {'name': 'Lungo', 'counter': 0},
       {'name': 'Macchiato', 'counter': 0},
       {'name': 'Brutto', 'counter': 0},
       {'name': 'Orzo', 'counter': 0},
       {'name': 'Orzo Macchiato', 'counter': 0},
       {'name': 'Cappuccino', 'counter': 0},
+      {'name': 'Liscio Deca', 'counter': 0},
+      {'name': 'Lungo Deca', 'counter': 0},
+      {'name': 'Macchiato Deca', 'counter': 0},
+      {'name': 'Brutto Deca', 'counter': 0},
+      {'name': 'Cappuccino Deca', 'counter': 0},
+      {'name': 'Caffè al ginseng', 'counter': 0},
       {'name': 'Orange Juice', 'counter': 0}
     ];
     this.state = { coffees: coffees };
@@ -27,7 +34,9 @@ class App extends Component {
 
   decrease(coffeType) {
     let newArray = this.state.coffees.slice();
-    newArray.find(x => x.name === coffeType).counter--;
+    if (newArray.find(x => x.name === coffeType).counter > 0){
+      newArray.find(x => x.name === coffeType).counter--;
+    }
     this.setState({coffees: newArray});
   }
 
