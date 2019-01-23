@@ -1,7 +1,7 @@
 {
   "main.css": "/coffees-counter/static/css/main.da986aa6.chunk.css",
-  "main.js": "/coffees-counter/static/js/main.87259d06.chunk.js",
-  "main.js.map": "/coffees-counter/static/js/main.87259d06.chunk.js.map",
+  "main.js": "/coffees-counter/static/js/main.99d1951e.chunk.js",
+  "main.js.map": "/coffees-counter/static/js/main.99d1951e.chunk.js.map",
   "static/css/1.93e9eb4f.chunk.css": "/coffees-counter/static/css/1.93e9eb4f.chunk.css",
   "static/js/1.48e875c1.chunk.js": "/coffees-counter/static/js/1.48e875c1.chunk.js",
   "static/js/1.48e875c1.chunk.js.map": "/coffees-counter/static/js/1.48e875c1.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/media/logo.svg": "/coffees-counter/static/media/logo.5d5d9eef.svg",
   "static/css/main.da986aa6.chunk.css.map": "/coffees-counter/static/css/main.da986aa6.chunk.css.map",
   "index.html": "/coffees-counter/index.html",
-  "precache-manifest.61b11640f62406fd7b5243e58d00293c.js": "/coffees-counter/precache-manifest.61b11640f62406fd7b5243e58d00293c.js",
+  "precache-manifest.2dd667936679740ee6da511143804d1f.js": "/coffees-counter/precache-manifest.2dd667936679740ee6da511143804d1f.js",
   "service-worker.js": "/coffees-counter/service-worker.js"
 }
