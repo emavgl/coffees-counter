@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/coffees-counter/static/js/runtime~main.b9415099.js"
   },
   {
-    "revision": "cb2badd10e8b36222464",
-    "url": "/coffees-counter/static/js/main.cb2badd1.chunk.js"
+    "revision": "87259d06eb2f7de11517",
+    "url": "/coffees-counter/static/js/main.87259d06.chunk.js"
   },
   {
     "revision": "48e875c1f5733597409d",
     "url": "/coffees-counter/static/js/1.48e875c1.chunk.js"
   },
   {
-    "revision": "cb2badd10e8b36222464",
+    "revision": "87259d06eb2f7de11517",
     "url": "/coffees-counter/static/css/main.da986aa6.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/coffees-counter/static/css/1.93e9eb4f.chunk.css"
   },
   {
-    "revision": "97babd959a4636ddda76aa1fb98ab371",
+    "revision": "6605918f872b9646de11285cf78c7a3e",
     "url": "/coffees-counter/index.html"
   }
 ];
