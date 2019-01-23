@@ -50,15 +50,20 @@ class App extends Component {
               {this.state.coffees.map((item) => (
                 <div key={item.name}>
                   <div className="row">
-                    <div className=" text-center col-2">
+                    <div className=" text-center col-2 pr-0">
                       <button type="button" className="list-group-item list-group-item-action" onClick={() => this.decrease(item.name)}>
                           <span>-</span>
                       </button>
                     </div>
-                    <div className="col-10">
-                      <button type="button" className="list-group-item list-group-item-action" onClick={() => this.increase(item.name)}>
+                    <div className="col-8">
+                      <li className="list-group-item">
                         {item.name}
                         <span className="badge badge-primary badge-pill ml-2">{item.counter}</span>
+                      </li>
+                    </div>
+                    <div className="text-center col-2 pl-0">
+                      <button type="button" className="list-group-item list-group-item-action" onClick={() => this.increase(item.name)}>
+                        <span>+</span>
                       </button>
                     </div>
                   </div>
